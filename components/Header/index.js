@@ -11,7 +11,7 @@
 
 const headerCont = document.querySelector('.header-container');
 
-function Header(test) {
+function Header() {
   const header = document.createElement('div');
   const date = document.createElement('span');
   const title = document.createElement('h1');
@@ -31,9 +31,7 @@ function Header(test) {
 
   headerCont.appendChild(header);
 
-  return test;
+  return;
 }
-
-
 
 console.log(Header());
